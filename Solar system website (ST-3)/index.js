@@ -1,0 +1,29 @@
+function Myfun(){
+    let weight=document.getElementById("weight").value;
+    weight=Number(weight);
+    let var1=weight*.38;
+    let var2=weight*28;
+    let var3=weight*.9;
+    let var4=weight*2.54;
+    let var5=weight*.89;
+    let var6=weight*1.07;
+    let var7=weight*1.14;
+    let var8=weight*.62;
+    var1=var1.toFixed(2);
+    var2=var2.toFixed(2);
+    var3=var3.toFixed(2);
+    var4=var4.toFixed(2);
+    var5=var5.toFixed(2);
+    var6=var6.toFixed(2);
+    var7=var7.toFixed(2);
+    var8=var8.toFixed(2);
+    document.getElementById("mercury").value=var1 +"kg";
+    document.getElementById("mars").value=var1 +"kg";
+    document.getElementById("sun").value=var2 +"kg";
+    document.getElementById("venus").value=var3 +"kg";
+    document.getElementById("jupiter").value=var4 +"kg";
+    document.getElementById("uranus").value=var5 +"kg";
+    document.getElementById("saturn").value=var6 +"kg";
+    document.getElementById("neptune").value=var7 +"kg";
+    document.getElementById("pluto").value=var8 +"kg";
+}

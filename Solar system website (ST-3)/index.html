@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+    
+    <!-- <style>
+        body{
+            background-color: ;
+        } -->
+    </style>
+</head>
+<body id="body">
+    <div id="main">
+        <div id="display">
+            <h1>Weight on different planets</h1><br><br>
+        
+        <div id="header">
+            <label id="label">Enter the weight here </label>
+            <input  type="number" placeholder=" input the weight here  only in number"  name="weight" id="weight">
+            <button style="background-color: yellow;"  onclick="Myfun()" id="btn">Calculate</button>
+        </div>
+        </div>
+            <marquee width="80%" direction="left"  height="400px" >
+                 Ever wonder what you might weight on Mars or The Moon? Here's your chance to find out.  
+            </marquee>
+        </div>
+        <div id="content">
+            <div class="planets" style="background-image: url('sun.jpg');" >
+                
+            <span>Sun</span>
+            <!-- <p >Your weight is </p> -->
+            <input class="weight"  type="text" name="sun_weight" size="5" aria-label=" our weight on the sun"  id="sun"></div>
+            <div class="planets" style="background-image: url('mercury.jpg');"><span>Mercury</span>
+            <!-- <p>your weight is </p> -->
+            <input class="weight"  type="text" name="mercury_weight" size="5" aria-label=" our weight on the mercury" id="mercury">
+            </div>
+            <!-- <p>your weight is </p>
+            <input class="weight"  type="text" name="mercury_weight"  width="5" height="2" aria-label=" our weight on the mercury"> -->
+            <div class="planets" style="background-image: url('venus.jpg');"><span>Venus</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="venus_weight" size="5" aria-label=" our weight on the  venus" id="venus"></div>
+            <div class="planets" style="background-image: url('mars.jpg');"><span>Mars</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="mars_weight" size="5" aria-label=" our weight on the mars " id="mars"></div>
+            <div class="planets" style="background-image: url('jupiter.jpg');"><span>Jupiter</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="jupiter_weight" size="5" aria-label=" our weight on the jupiter" id="jupiter"></div>
+            <div class="planets" style="background-image: url('saturn.jpg');"><span>Saturn</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="saturn _weight" size="5" aria-label=" our weight on the  saturn " id="saturn"></div>
+            <div class="planets" style="background-image: url('uranus.jpg');"><span>Uranus</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="uranus_weight" size="5" aria-label=" our weight on the uranus " id="uranus"></div>
+            <div class="planets" style="background-image: url('neptune.jpg');"><span>Neptune</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="neptune_weight" size="5" aria-label=" our weight on the neptune" id="neptune"></div>
+            <div class="planets" style="background-image: url('pluto.jpg');"><span>Pluto</span>
+                <!-- <p>your weight is </p> -->
+                <input class="weight"  type="text" name="pluto_weight" size="5" aria-label=" our weight on the pluto" id="pluto"></div>
+
+
+        </div>
+
+    </div>
+    <script src="index.js">
+
+    </script>
+    
+</body>
+</html>
